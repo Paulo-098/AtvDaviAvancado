@@ -48,6 +48,10 @@ lis = []
 if not lis: # lista vazia é False
     print('Lista vazia')
 
+
+Edição Dyonatha:
+Python é uma linguagem de programação de alto nível, amplamente utilizada por sua sintaxe simples e legível, o que a torna ideal para iniciantes e profissionais. Ela suporta múltiplos paradigmas de desenvolvimento e é fortemente aplicada em áreas como inteligência artificial, análise de dados, desenvolvimento web e automação de tarefas.
+
 Python: Código simples. Soluções inteligentes.
 
 Sobre a linguagem de python utilizada para IA: É a linguagem líder absoluta em Data Science, Machine Learning e Inteligência Artificial devido a bibliotecas robustas como Pandas e TensorFlow."
