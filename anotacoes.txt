@@ -48,4 +48,8 @@ lis = []
 if not lis: # lista vazia é False
     print('Lista vazia')
 
+<<<<<<< HEAD
 Python: Código simples. Soluções inteligentes.
+=======
+Sobre a linguagem de python utilizada para IA: É a linguagem líder absoluta em Data Science, Machine Learning e Inteligência Artificial devido a bibliotecas robustas como Pandas e TensorFlow." 
+>>>>>>> 90550a95721674777f66da40cd9b288835007232
