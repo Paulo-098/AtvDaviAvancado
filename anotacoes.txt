@@ -47,3 +47,5 @@ print(lis)
 lis = []
 if not lis: # lista vazia é False
     print('Lista vazia')
+
+Python: Código simples. Soluções inteligentes.
