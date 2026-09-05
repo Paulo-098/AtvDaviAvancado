@@ -1,0 +1,49 @@
+Lista de funções de Arrays em Python
+
+lis = []  # criar uma lista vazia
+lis = [1, 2, 3, 4, 5]  # criar uma lista com valores pré-inseridos
+lis = [0] * 10  # criar uma lista com 10 zeros
+lis = [x for x in range(10)]  # criar a lista: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+copia = lis.copy()  # copiar a lista lis para copia
+copia = lis[:]  # outra forma de copiar a lista lis para copia
+print(copia)
+print(copia[1:4])  # mostra o recorte da lista entre o 2º e o 4º valor
+lis.append(10)  # inserir no final da lista o valor 10
+print(lis)
+val = lis.pop()  # retirar da lista o valor final (val recebe o último da lista)
+print(val, lis)
+val = lis.pop(0)  # retirar o primeiro da lista (o índice deve ser passado)
+print(val, lis)
+lis.insert(4, 99)  # inserir 99 na posição (índice) 4 (5º posição)
+print(lis)
+lis = [6, 2, 9, 0, 2, 6, 7, 3]
+print(f'Lista desordenada = {lis}')
+tam = len(lis)  # calcular o tamanho da lista (nº de elementos)
+print(tam, 'elementos')
+novalis = sorted(lis)  # criar uma nova lista ordenada (crescente) da lista passada com parâmetro (lis)
+print(f'Lista desordenada = {lis} e lista em ordem crescente = {novalis}')
+novalis = sorted(lis, reverse=True)  # ordem decrescente
+print(f'Lista desordenada = {lis} e lista em ordem decrescente = {novalis}')
+lis.sort()  # ordenar a lista (a lista será alterada)
+print(f'Lista ordenada = {lis}')
+me, ma, soma = min(lis), max(lis), sum(lis)  # calcular menor, maior e a soma dos valores de uma lista
+print('Menor =', me, 'Maior =', ma, 'Soma =', soma)
+cont = lis.count(2)  # calcular a qtde de elementos iguais ao 2
+print('Qtde iguais ao 2 =', cont)
+if 3 in lis:  # verifica se o valor 3 está contido na lista lis
+    print('3 está contido na lista')
+if 5 not in lis:  # verifica se o 5 NÃO está contido na lista lis
+    print('SIM')
+else:
+    print('NÃO')
+lis1 = [1, 2, 3]
+lis2 = [4, 5, 6, 7, 8]
+lis3 = lis1 + lis2  # soma de listas resulta em outra lista com os valores reunidos
+print(f'Lista (listas somadas): {lis3}')
+lis = [3, 4, 2, 1, 5, 3, 4, 2, 4]
+print(lis)
+lis = list(set(lis))  # eliminar repetições em lista (set converte em conjunto)
+print(lis)
+lis = []
+if not lis: # lista vazia é False
+    print('Lista vazia')
