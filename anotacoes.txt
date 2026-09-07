@@ -55,3 +55,7 @@ Python é uma linguagem de programação de alto nível, amplamente utilizada po
 Python: Código simples. Soluções inteligentes.
 
 Sobre a linguagem de python utilizada para IA: É a linguagem líder absoluta em Data Science, Machine Learning e Inteligência Artificial devido a bibliotecas robustas como Pandas e TensorFlow."
+
+Edição Bruno:
+
+Python é uma linguagem de programação popular porque combina simplicidade, facilidade de leitura e grande poder de execução
