@@ -1,5 +1,8 @@
 Listas em Python do trabalho do Davi
 
+Funções de Arrays em Python
+
+
 lis = []  # criar uma lista vazia
 lis = [1, 2, 3, 4, 5]  # criar uma lista com valores pré-inseridos
 lis = [0] * 10  # criar uma lista com 10 zeros
