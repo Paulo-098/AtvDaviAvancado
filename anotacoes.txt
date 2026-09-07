@@ -1,4 +1,4 @@
-Lista de funções de Arrays em Python
+Listas em Python do trabalho do Davi
 
 lis = []  # criar uma lista vazia
 lis = [1, 2, 3, 4, 5]  # criar uma lista com valores pré-inseridos
